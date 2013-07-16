@@ -1,0 +1,1 @@
+<?php	include_once( 'core/playStoreApi.php' );	$play_store_api = new PlayStoreApi;	$allCategories = $play_store_api->listCategories();?>
